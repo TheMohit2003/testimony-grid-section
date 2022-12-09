@@ -1,0 +1,181 @@
+body {
+  background-color: hsl(210, 46%, 95%);
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.box {
+  height: 900px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 20px;
+  background-color: hsl(210, 46%, 95%);
+  color: black;
+  font-size: 2rem;
+  position: absolute;
+  top: 15%;
+  bottom: 15%;
+  padding-left: 175px;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+
+
+
+}
+
+.one {
+  background-color: hsl(263, 55%, 52%);
+  grid-column:1/3 ;
+  grid-row:1/2 ;
+  border-radius: 10px;
+  color:#fff;
+}
+
+.two {
+  background-color: hsl(217, 19%, 35%);
+  grid-column: 3/4 ;
+  grid-row: 1/2 ;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.three {
+  background-color: hsl(0, 0%, 100%);
+  grid-column: 4/5;
+  grid-row:1/3 ;
+  border-radius: 10px;
+}
+
+.four {
+  background-color: hsl(0, 0%, 100%);
+  grid-column:1/2 ;
+  grid-row: 2/3;
+  border-radius: 10px;
+}
+
+.five {
+  background-color: hsl(219, 29%, 14%);
+  grid-column: 2/4;
+  grid-row: 2/3 ;
+  border-radius: 10px;
+  color: #fff;
+}
+
+/* styling inside the boxes */
+
+img{
+  border-radius: 100%;
+  float: left;
+  border: 1.5px solid #fff;
+  height: 30px;
+  width: 30px;
+  margin-left: 35px;
+  margin-right: 20px;
+  margin-top: 15px;
+
+}
+
+.one-one{
+font-size: 13px;
+color: hsl(0, 0%, 81%);
+}
+
+.one-two{
+  font-size: 1.5rem;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-left: 25px;
+  margin-right: 25px;
+
+
+
+}
+
+.one-three{
+  font-size: 13px;
+  margin-left: 25px;
+  margin-right: 25px;
+  opacity:70%;
+  line-height: 1.5;
+}
+
+.two-one{
+font-size: 13px;
+}
+
+.two-two{
+    font-size: 1.5rem;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.two-three{
+    font-size: 13px;
+    margin-left: 25px;
+    margin-right: 25px;
+    opacity: 70%;
+    line-height: 1.5;
+
+}
+
+.three-one{
+font-size: 13px;
+}
+
+.three-two{
+    font-size: 1.5rem;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.three-three{
+    font-size: 13px;
+    margin-left: 25px;
+    margin-right: 25px;
+    opacity: 70%;
+    line-height: 1.5;
+}
+
+.four-one{
+font-size: 13px;
+}
+
+.four-two{
+    font-size: 1.5rem;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.four-three{
+    font-size: 13px;
+    margin-left: 25px;
+    margin-right: 25px;
+    opacity: 70%;
+    line-height: 1.5;
+}
+
+.five-one{
+font-size: 13px;
+}
+
+.five-two{
+    font-size: 1.5rem;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.five-three{
+    font-size: 13px;
+    margin-left: 25px;
+    margin-right: 25px;
+    opacity: 70%;
+    line-height: 1.5;
+}
+
+#identity{
+  padding-top: 15px;
+}
+
+span{
+  opacity: 50%;
+}
